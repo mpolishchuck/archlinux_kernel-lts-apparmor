@@ -1,12 +1,12 @@
 # $Id: PKGBUILD 281881 2016-11-22 15:07:53Z andyrtr $
 # Maintainer: Andreas Radke <andyrtr@archlinux.org>
 
-pkgbase=linux-lts
-#pkgbase=linux-lts-custom
+#pkgbase=linux-lts
+pkgbase=linux-lts-apparmor
 _srcname=linux-4.4
 pkgver=4.4.34
 pkgrel=1
-arch=('i686' 'x86_64')
+arch=('x86_64')
 url="http://www.kernel.org/"
 license=('GPL2')
 makedepends=('xmlto' 'docbook-xsl' 'kmod' 'inetutils' 'bc')
@@ -25,7 +25,7 @@ sha256sums=('401d7c8fef594999a460d10c72c5a94e9c2e1022f16795ec51746b0d165418b2'
             'b1e77807267aa3ec81e46c15b1a4be0c7169b6c19eb52cd371c4f58dd2183a9d'
             'SKIP'
             'b11702727b1503e5a613946790978481d34d8ecc6870337fadd3ce1ef084a8e2'
-            '68c7296ff2f5f55d69e83aa4d20f925df740b1eb1e6bdb0f13e8a170360ed09f'
+            'ae635908d3316eb6ab0837a69e7ae942d8783b2bcbacf0064e2cf56aca89e093'
             '1f036f7464da54ae510630f0edb69faa115287f86d9f17641197ffda8cfd49e0'
             '1256b241cd477b265a3c2d64bdc19ffe3c9bbcee82ea3994c590c2c76e767d99'
             '5313df7cb5b4d005422bd4cd0dae956b2dadba8f3db904275aaf99ac53894375')
