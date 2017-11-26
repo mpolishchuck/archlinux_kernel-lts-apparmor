@@ -1,8 +1,8 @@
 # $Id$
 # Maintainer: Andreas Radke <andyrtr@archlinux.org>
 
-pkgbase=linux-lts
-#pkgbase=linux-lts-custom
+#pkgbase=linux-lts
+pkgbase=linux-lts-apparmor
 _srcname=linux-4.9
 pkgver=4.9.65
 pkgrel=1
@@ -25,7 +25,7 @@ sha256sums=('029098dcffab74875e086ae970e3828456838da6e0ba22ce3f64ef764f3d7f1a'
             'SKIP'
             '3e1937ad3aeb89ac247e96551059babe3c959c6c8868107adac6f3634e39a4ae'
             'SKIP'
-            '6c4d909ae6594a2956c257539c8b2f67a8de52d7335be172787d6dc8aca12c99'
+            'dfef9ab03142097dedafe71ac222f38d4d2edecd17702463384697c659facb48'
             '834bd254b56ab71d73f59b3221f056c72f559553c04718e350ab2a3e2991afe0'
             '1f036f7464da54ae510630f0edb69faa115287f86d9f17641197ffda8cfd49e0'
             '1256b241cd477b265a3c2d64bdc19ffe3c9bbcee82ea3994c590c2c76e767d99')
